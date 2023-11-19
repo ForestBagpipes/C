@@ -16,6 +16,7 @@ void hanoi(int n, char x,char y, char z)
 int main()
 {
     printf("输入汉诺塔层数：");
+    printf("test")
     int n;
     scanf("%d", &n);
     hanoi(n,'A','B','C');
